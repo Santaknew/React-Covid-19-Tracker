@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Line, Bar } from 'react-chartjs-2';
+import { Line, Pie } from 'react-chartjs-2';
 
 import { fetchDailyData } from '../../api';
 
@@ -18,9 +18,9 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
     fetchMyAPI();
   }, []);
 
-  const barChart = (
+  const pieChart = (
     confirmed ? (
-      <Bar
+      <Pie
         data={{
           labels: ['Infected', 'Recovered', 'Deaths'],
           datasets: [
@@ -64,7 +64,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
 
   return (
     <div className={styles.container}>
-      {country ? barChart : lineChart}
+      {country ? pieChart : lineChart}
     </div>
   );
 };
