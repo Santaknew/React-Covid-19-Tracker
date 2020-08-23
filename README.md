@@ -3,7 +3,7 @@
 A react app that keeps track of the worldwide spread of Corona.
 
 ## Important Links
-<a href="https://covid19.mathdro.id/api">Click here for API Source</a>
+<a href="https://covid19.mathdro.id/api">Click here for API Source</a></br>
 <a href="https://i.ibb.co/7QpKsCX/image.png">Click here for title image source</a>
 
 ## 📲 Connect with me on social media 
