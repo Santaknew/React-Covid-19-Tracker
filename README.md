@@ -8,6 +8,8 @@ A react app that keeps track of the worldwide spread of Corona.
 
 ## Demo 👇
 ![image](https://user-images.githubusercontent.com/64271130/120354996-8f91d100-c320-11eb-99fc-8e5a522327b3.png)
+
+
 ![image](https://user-images.githubusercontent.com/64271130/120355050-9a4c6600-c320-11eb-9a76-31ecb91d1a81.png)
 
 
